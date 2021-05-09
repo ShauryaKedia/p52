@@ -55,11 +55,22 @@ a:visited{
     position:absolute;
 }
 
-.bodyImg img{
+.bodyImg{
     position: relative;
+}
+
+.bodyImg p{
+    position: absolute;
+    top:20%;
+    left:40%;
+    color:white;
 }
 
 .bodyImg h3{
     position: absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform: translate(-50%, -50%);
 }
 
